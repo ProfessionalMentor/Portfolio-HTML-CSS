@@ -1,0 +1,242 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial;
+}
+
+
+#home .navbar{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+
+}
+
+#home .navbar ul{
+    color: white;
+    display: flex;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+
+#home .navbar ul li{
+  list-style: none;
+  padding: 10px;
+  font-size: large;
+}
+
+#home .navbar ul li:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+#home .navbar .logo  h1{
+  color: yellow;
+  margin-top: -40px;
+  margin-left: 10px;
+}
+
+#home .navbar .main-img img{
+    margin-top:100px;
+    margin-left: 100px;
+    width: 380px;
+    height: 400px;
+    border: 2px solid rgb(15, 87, 203);
+    padding-top:10px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 7px rgb(15, 87, 203) ;
+}
+
+#home .navbar .main-txt{
+    margin-left: 750px;
+    margin-top: -320px;
+}
+
+#home .navbar .main-txt h1{
+    color:yellow ;
+    font-size: 40px;
+}
+
+#home .navbar .main-txt h2{
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#home .navbar .main-txt h3{
+   color:  rgb(11, 125, 231);
+   margin-top: 20px;
+   font-size: 20px;    
+}
+
+#home .navbar .main-txt i{
+    margin-top: 14px;
+    color:rgb(17, 134, 224);
+    font-size: 30px;
+    border: 2px solid rgb(11, 115, 212);
+    padding: 7px;
+    border-radius: 50%;
+    margin: 20px;
+    margin-left: -2px;
+}
+
+#home .navbar .main-txt i:hover{
+    background-color: rgb(15, 87, 203);
+    color: white;
+    cursor: pointer;
+}
+
+#contact{
+        background-color: rgb(34, 31, 31);
+        height: 100vh;
+        width: 100%;
+}
+
+#contact h1{
+    color: yellow;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+#contact .contact-form{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 290px;
+}
+
+#contact .contact-form form{
+    background-color: aliceblue;
+    height: 300px;
+    width: 600px;
+    margin-left: 90px;
+    border-radius: 10px;
+    
+}
+
+#contact .contact-form form input{
+    width: 500px;
+    height: 30px;
+    border: 2px solid rgb(15, 87, 203);
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 30px;
+    outline: none;
+}
+
+#contact .contact-form form button{
+     padding-top:6px;
+     padding-bottom: 6px;
+     padding-left: 14px;
+     padding-right: 14px;
+     background-color: rgb(15, 87, 203);
+     border: none;
+     border-radius: 5px;
+     color: white;
+     margin-top: 20px;
+     margin-left: 250px;
+}
+
+#services{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+#services h1{
+    color: yellow;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#services h2{
+    color: yellow;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#services .font-server{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 50px;
+    
+}
+
+#services .font-server i{
+    color: rgb(15, 87, 203);
+    font-size: 100px;
+    margin: 40px;
+}
+
+#services .font-server i:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+#about{
+    background-color:  rgb(34, 31, 31);
+    height: 100vh;
+    width: 100%
+}
+
+
+#about h1{
+    color: yellow;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+
+#about .about-text{
+    margin-left: 500px;
+    margin-top: -320px;
+
+
+}
+
+#about .img-about img{
+    height: 400px;
+    width: 350px;
+    margin-left: 100px;
+
+}
+
+#about .about-text h2{
+    color: yellow;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 50px;
+    margin-left: -220px;
+}
+
+#about .about-text p{
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+padding-top: 50px;
+color: chartreuse;
+font-size: 24px;
+}
